@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+    background-image: url('https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+  }
+  
+  .container {
+    max-width: 1125px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    /* background-color: burlywood; */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: rgb(13, 153, 60);
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 3px solid black;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: olivedrab;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border: 3px solid whitesmoke;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #ccc;
+  }
+  
+  .movie img {
+    max-width: 100%;
+    height: auto;
+  }
+  
